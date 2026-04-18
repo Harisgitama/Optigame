@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer gear ring -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M54,18 L58,14 L62,18 L66,15 L68,20 L73,18 L74,24 L79,23 L79,29 L84,29 L83,35 L88,36 L86,42 L91,44 L88,50 L93,53 L89,58 L93,62 L88,66 L91,71 L86,74 L88,80 L83,82 L84,88 L79,89 L79,94 L74,94 L73,100 L68,98 L66,103 L62,100 L58,104 L54,100 L50,104 L46,100 L42,103 L40,98 L35,100 L34,94 L29,94 L29,89 L24,88 L25,82 L20,80 L22,74 L17,71 L20,66 L15,62 L19,58 L15,53 L20,50 L17,44 L22,42 L20,36 L25,35 L24,29 L29,29 L29,23 L34,24 L35,18 L40,20 L42,15 L46,18 L50,14 Z"
+        android:strokeWidth="0" />
+
+    <!-- Inner circle (dark cutout) -->
+    <circle
+        android:fillColor="#0D0F14"
+        android:centerX="54"
+        android:centerY="59"
+        android:radius="26" />
+
+    <!-- Wrench icon inside -->
+    <path
+        android:fillColor="#00FF88"
+        android:pathData="M44,45 C40,41 40,35 44,31 C45,30 47,30 47,30 L50,33 L47,36 L50,39 L53,36 L56,39 C58,43 57,48 54,51 L62,63 C64,66 63,70 60,72 C57,74 53,73 51,70 L43,58 C40,55 41,48 44,45 Z M57,66 C58,67 58,69 57,70 C56,71 54,71 53,70 C52,69 52,67 53,66 C54,65 56,65 57,66 Z" />
+
+    <!-- Small stikps dot -->
+    <circle
+        android:fillColor="#00D4FF"
+        android:centerX="54"
+        android:centerY="54"
+        android:radius="3" />
+
+</vector>
